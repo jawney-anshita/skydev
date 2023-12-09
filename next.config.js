@@ -2,8 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-<<<<<<< HEAD
-  output: 'standalone',
+
+  output: 'export',
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
@@ -16,10 +16,3 @@ const nextConfig = {
 }
  
 module.exports = nextConfig
-=======
-    output: 'export',
-    
-  }
-   
-  module.exports = nextConfig
->>>>>>> 064edd45e4dc09f1d4cf6fa0f5abe84442d7aaa4
